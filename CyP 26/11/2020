@@ -1,0 +1,146 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPxukUzMSYpHlAAwGbuPy+w",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/AlanHDLR/cyp_2021/blob/main/CyP%2026/11/2020\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "__gN_rR4nKFb"
+      },
+      "source": [
+        "if (True):\n",
+        "  print(\"La condición se cumple\")\n",
+        "\n",
+        "print(\"Termina el programa\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "_gX2LARDophh"
+      },
+      "source": [
+        "if (5>3): \n",
+        "  print(\"La condición se cumple\")\n",
+        "\n",
+        "print(\"No se cumple\")\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "mlN2EF-Fo5LQ"
+      },
+      "source": [
+        "if (2>3):\n",
+        "  print(\"Se cumple\")\n",
+        "\n",
+        "print(\"No se cumple la condiión\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0i55rrD2pFyo",
+        "outputId": "d6ed12f9-8ec0-4806-b200-ca98f64546aa"
+      },
+      "source": [
+        "#Ejercico 1\n",
+        "\n",
+        "cal=float(input(\"¿Cuál es tu calificación?\"))\n",
+        "\n",
+        "if (cal>8):\n",
+        "  print(\"Aprobado\")\n",
+        "else:\n",
+        "  print(\"Reprobado\")"
+      ],
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "¿Cuál es tu calificación?8\n",
+            "Reprobado\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fh51d70rqyI2",
+        "outputId": "5f1c261f-bb66-40e2-bb8d-95f24c2676dc"
+      },
+      "source": [
+        "#Ejercicio 2\n",
+        "\n",
+        "sueldo = float(input(\"¿Cuál es tu sueldo?\"))\n",
+        "sueldo2= (sueldo * 1.15)\n",
+        "\n",
+        "if (sueldo<1000):\n",
+        "  print(f\"tu suledo es: ${sueldo2}\")\n",
+        "\n",
+        "else:\n",
+        "  print(f\"Tu sueldo es: ${sueldo}\")"
+      ],
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "¿Cuál es tu sueldo?1001\n",
+            "Tu sueldo es: $1001.0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "RD5Pz1xUsv9S"
+      },
+      "source": [
+        "#Ejercico 3\n",
+        "\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
